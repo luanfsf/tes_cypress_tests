@@ -16,6 +16,7 @@ context('Actions', () => {
     cy.get('#password').type('digite sua senha');
 	cy.get('#userLogin').click({force:true});
 	cy.wait(50000);
+     cy.get('#userLogin').click('bottom');
 
   })
 
